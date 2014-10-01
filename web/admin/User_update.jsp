@@ -8,10 +8,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
   <head>
     <base href="<%=basePath%>">
-    
-    <title>Struts2</title>
+    <title>后台首页</title>
 </head>
+
 <body>
-Struts2首页
+后台首页
 </body>
 </html>

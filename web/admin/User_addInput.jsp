@@ -8,10 +8,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
   <head>
     <base href="<%=basePath%>">
-    
-    <title>Struts2</title>
+    <title>后台首页</title>
 </head>
+
 <body>
-Struts2首页
+<body>
+  <form action="admin/User_add" method="post">
+	  	用户:<input name="user.name" /><br/>
+	  	说明:<input name="user.description"/><br/>
+	  	<input type="submit" value="注册" /> 
+  </form>
+  </body>
 </body>
 </html>
